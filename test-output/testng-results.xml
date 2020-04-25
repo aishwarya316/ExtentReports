@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Reports" duration-ms="21208" started-at="2020-04-23T14:56:16Z" finished-at="2020-04-23T14:56:37Z">
+  <suite name="Reports" duration-ms="23731" started-at="2020-04-25T14:40:47Z" finished-at="2020-04-25T14:41:11Z">
     <groups>
     </groups>
-    <test name="Testing the reports" duration-ms="21208" started-at="2020-04-23T14:56:16Z" finished-at="2020-04-23T14:56:37Z">
+    <test name="Testing the reports" duration-ms="23731" started-at="2020-04-25T14:40:47Z" finished-at="2020-04-25T14:41:11Z">
       <class name="com.qa.tests.FacebookTitle">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.tests.FacebookTitle@544a2ea6]" name="Setup" is-config="true" duration-ms="6276" started-at="2020-04-23T14:56:29Z" finished-at="2020-04-23T14:56:35Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.tests.FacebookTitle@544a2ea6]" name="Setup" is-config="true" duration-ms="5616" started-at="2020-04-25T14:41:03Z" finished-at="2020-04-25T14:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="getTitle2()[pri:2, instance:com.qa.tests.FacebookTitle@544a2ea6]" name="getTitle2" duration-ms="17" started-at="2020-04-23T14:56:35Z" finished-at="2020-04-23T14:56:35Z">
+        <test-method status="FAIL" signature="getTitle2()[pri:2, instance:com.qa.tests.FacebookTitle@544a2ea6]" name="getTitle2" duration-ms="21" started-at="2020-04-25T14:41:08Z" finished-at="2020-04-25T14:41:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [LogFacebook] but found [Log in to Facebook | Facebook]]]>
@@ -56,21 +56,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FacebookTitle@544a2ea6]" name="tearDown" is-config="true" duration-ms="2329" started-at="2020-04-23T14:56:35Z" finished-at="2020-04-23T14:56:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.FacebookTitle@544a2ea6]" name="tearDown" is-config="true" duration-ms="2371" started-at="2020-04-25T14:41:08Z" finished-at="2020-04-25T14:41:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tests.FacebookTitle -->
       <class name="com.qa.tests.GoogleTitle">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.tests.GoogleTitle@2e3fc542]" name="Setup" is-config="true" duration-ms="11264" started-at="2020-04-23T14:56:16Z" finished-at="2020-04-23T14:56:27Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.qa.tests.GoogleTitle@2e3fc542]" name="Setup" is-config="true" duration-ms="13001" started-at="2020-04-25T14:40:47Z" finished-at="2020-04-25T14:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="getTitle1()[pri:1, instance:com.qa.tests.GoogleTitle@2e3fc542]" name="getTitle1" duration-ms="77" started-at="2020-04-23T14:56:27Z" finished-at="2020-04-23T14:56:27Z">
+        <test-method status="PASS" signature="getTitle1()[pri:1, instance:com.qa.tests.GoogleTitle@2e3fc542]" name="getTitle1" duration-ms="121" started-at="2020-04-25T14:41:00Z" finished-at="2020-04-25T14:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitle@2e3fc542]" name="tearDown" is-config="true" duration-ms="1180" started-at="2020-04-23T14:56:27Z" finished-at="2020-04-23T14:56:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.GoogleTitle@2e3fc542]" name="tearDown" is-config="true" duration-ms="2453" started-at="2020-04-25T14:41:00Z" finished-at="2020-04-25T14:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
