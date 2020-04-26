@@ -15,6 +15,7 @@
   </properties>
 
    <dependencies>
+   
    <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
@@ -82,8 +83,9 @@
     <artifactId>junit</artifactId>
     <version>4.11</version>
     <scope>test</scope>
-</dependency>
+    </dependency>
 	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>
